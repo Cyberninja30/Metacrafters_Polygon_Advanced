@@ -83,9 +83,11 @@ yarn install
 Create a `.env` file in the root directory and add the following variables, replacing the placeholder values with your own:
 
 ```bash
-PRIVATE_KEY=your-private-key
-INFURA_PROJECT_ID=your-infura-project-id
-ETHERSCAN_API_KEY=your-etherscan-api-key
+PRIVATE_KEY = ""
+ContractAddress =""
+WalletAddress = ""
+BridgeAddress = ""
+AmoyContractAddress = ""
 ```
 - **PRIVATE_KEY**: Your wallet's private key for deploying contracts (use a test wallet for security).
 - **INFURA_PROJECT_ID**: Infura project ID for connecting to Ethereum or Polygon networks.
@@ -95,7 +97,6 @@ ETHERSCAN_API_KEY=your-etherscan-api-key
 Compile the smart contracts using Hardhat.
 
 ```bash
-npx hardhat clean
 npx hardhat compile
 ```
 
